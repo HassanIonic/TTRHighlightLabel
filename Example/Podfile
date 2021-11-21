@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TTRHighlightLabel_Example' do
+  pod 'TTRHighlightLabel', :path => '../'
+
+  target 'TTRHighlightLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

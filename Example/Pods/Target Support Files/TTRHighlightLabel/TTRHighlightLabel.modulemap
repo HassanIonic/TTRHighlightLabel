@@ -1,0 +1,6 @@
+framework module TTRHighlightLabel {
+  umbrella header "TTRHighlightLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

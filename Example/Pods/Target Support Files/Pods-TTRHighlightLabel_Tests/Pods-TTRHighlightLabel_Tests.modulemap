@@ -1,0 +1,6 @@
+framework module Pods_TTRHighlightLabel_Tests {
+  umbrella header "Pods-TTRHighlightLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

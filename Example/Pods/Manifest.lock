@@ -1,0 +1,16 @@
+PODS:
+  - TTRHighlightLabel (0.1.0)
+
+DEPENDENCIES:
+  - TTRHighlightLabel (from `../`)
+
+EXTERNAL SOURCES:
+  TTRHighlightLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TTRHighlightLabel: 246e8377a620816f55cd24ca52715eb1bc165e19
+
+PODFILE CHECKSUM: 5c89601b69877e455433bd5d6071af9222d0e0f3
+
+COCOAPODS: 1.10.2

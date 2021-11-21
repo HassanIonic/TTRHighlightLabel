@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		00C3990CBCCFF63F155C840BE440C2F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1D8A06E1D5BF2F475FF088C50E839FFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2485D6D6274AC59A00AD6BB0 /* TTRHighlightLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2485D6D5274AC59A00AD6BB0 /* TTRHighlightLabel.swift */; };
 		5A7FC07FDDC8131124A3CF4C038D1336 /* Pods-TTRHighlightLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B23245F220583B0AA7078D5B7C78F14C /* Pods-TTRHighlightLabel_Tests-dummy.m */; };
 		A9FF80DA72A85A92C8E5D0C2DC432EED /* TTRHighlightLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAA3B769C928503B97022B26087B2FE /* TTRHighlightLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA2ABDF3C270855B2AA49B8AF9E33729 /* Pods-TTRHighlightLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64EDC8A12B7CC9085D6FCB3543D771BB /* Pods-TTRHighlightLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +42,7 @@
 		04A2C42DB444CA6A813E9A6C582353A7 /* Pods_TTRHighlightLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTRHighlightLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DAC43541043512E11AB6D036F3479A /* Pods-TTRHighlightLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTRHighlightLabel_Tests-Info.plist"; sourceTree = "<group>"; };
 		1C0EEFADEBE890D28F5E55B988A37337 /* TTRHighlightLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TTRHighlightLabel-Info.plist"; sourceTree = "<group>"; };
+		2485D6D5274AC59A00AD6BB0 /* TTRHighlightLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTRHighlightLabel.swift; sourceTree = "<group>"; };
 		339A351E8D51993F63080F4D9989B1F3 /* Pods-TTRHighlightLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTRHighlightLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		3A66E27EA3E160363DA839A51E08510F /* TTRHighlightLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTRHighlightLabel.modulemap; sourceTree = "<group>"; };
 		4561C67D01D5B6848859F345C9E2BFB6 /* Pods-TTRHighlightLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTRHighlightLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,7 +63,7 @@
 		B23245F220583B0AA7078D5B7C78F14C /* Pods-TTRHighlightLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTRHighlightLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		C2E0B8325812CB19E7A00DAFABCF49DE /* TTRHighlightLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTRHighlightLabel.release.xcconfig; sourceTree = "<group>"; };
 		C8E7A10D6B0E1278D1381126E8E7386D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DCE680AFFE50B575962123418B346F77 /* TTRHighlightLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TTRHighlightLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DCE680AFFE50B575962123418B346F77 /* TTRHighlightLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TTRHighlightLabel.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		DEAA3B769C928503B97022B26087B2FE /* TTRHighlightLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTRHighlightLabel-umbrella.h"; sourceTree = "<group>"; };
 		E116CC684C974C4F25E94BE8623CD300 /* Pods-TTRHighlightLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTRHighlightLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		E9008FCDA35D74B969DE498A3824EF43 /* TTRHighlightLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTRHighlightLabel-prefix.pch"; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		2485D6D4274AC14C00AD6BB0 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				2485D6D5274AC59A00AD6BB0 /* TTRHighlightLabel.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -322,6 +325,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					632ACB6096EFAB4CB316ED740D5628C6 = {
+						LastSwiftMigration = 1300;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -372,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2485D6D6274AC59A00AD6BB0 /* TTRHighlightLabel.swift in Sources */,
 				C9BB0D540A34FD484864FDCFA28B580E /* Pods-TTRHighlightLabel_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,7 +434,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TTRHighlightLabel/TTRHighlightLabel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TTRHighlightLabel/TTRHighlightLabel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TTRHighlightLabel/TTRHighlightLabel.modulemap";
 				PRODUCT_MODULE_NAME = TTRHighlightLabel;
@@ -455,7 +464,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TTRHighlightLabel/TTRHighlightLabel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TTRHighlightLabel/TTRHighlightLabel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TTRHighlightLabel/TTRHighlightLabel.modulemap";
 				PRODUCT_MODULE_NAME = TTRHighlightLabel;
@@ -524,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -552,7 +561,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TTRHighlightLabel_Tests/Pods-TTRHighlightLabel_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TTRHighlightLabel_Tests/Pods-TTRHighlightLabel_Tests.modulemap";
@@ -574,6 +583,7 @@
 			baseConfigurationReference = 4561C67D01D5B6848859F345C9E2BFB6 /* Pods-TTRHighlightLabel_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -584,7 +594,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TTRHighlightLabel_Example/Pods-TTRHighlightLabel_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TTRHighlightLabel_Example/Pods-TTRHighlightLabel_Example.modulemap";
@@ -595,6 +605,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -616,7 +628,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TTRHighlightLabel_Tests/Pods-TTRHighlightLabel_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TTRHighlightLabel_Tests/Pods-TTRHighlightLabel_Tests.modulemap";
@@ -639,6 +651,7 @@
 			baseConfigurationReference = E93CD74219B92870D6616997A8DA815C /* Pods-TTRHighlightLabel_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -649,7 +662,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TTRHighlightLabel_Example/Pods-TTRHighlightLabel_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TTRHighlightLabel_Example/Pods-TTRHighlightLabel_Example.modulemap";
@@ -660,6 +673,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -717,7 +731,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

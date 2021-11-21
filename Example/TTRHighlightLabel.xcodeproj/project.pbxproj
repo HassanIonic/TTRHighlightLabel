@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		150E5EF257DCA915819E5DAB /* Pods-TTRHighlightLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTRHighlightLabel_Example.release.xcconfig"; path = "Target Support Files/Pods-TTRHighlightLabel_Example/Pods-TTRHighlightLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		497EA4295112477457644DA3 /* TTRHighlightLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TTRHighlightLabel.podspec; path = ../TTRHighlightLabel.podspec; sourceTree = "<group>"; };
+		497EA4295112477457644DA3 /* TTRHighlightLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTRHighlightLabel.podspec; path = ../TTRHighlightLabel.podspec; sourceTree = "<group>"; };
 		5189C0AFC12FD63D76DA5171 /* Pods-TTRHighlightLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTRHighlightLabel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TTRHighlightLabel_Tests/Pods-TTRHighlightLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		594B051DF764061CE52C8FDA /* Pods-TTRHighlightLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTRHighlightLabel_Tests.release.xcconfig"; path = "Target Support Files/Pods-TTRHighlightLabel_Tests/Pods-TTRHighlightLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TTRHighlightLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTRHighlightLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,8 +42,8 @@
 		607FACE51AFB9204008FA782 /* TTRHighlightLabel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTRHighlightLabel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7EC2AD0203940D1210668E6E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9E242DBE6181B66F998F63DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7EC2AD0203940D1210668E6E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9E242DBE6181B66F998F63DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ABD95B10F93344F3D92282E4 /* Pods_TTRHighlightLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTRHighlightLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3003FBD768257232E49AF4F /* Pods_TTRHighlightLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTRHighlightLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E232FE085034514052438188 /* Pods-TTRHighlightLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTRHighlightLabel_Example.debug.xcconfig"; path = "Target Support Files/Pods-TTRHighlightLabel_Example/Pods-TTRHighlightLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				5189C0AFC12FD63D76DA5171 /* Pods-TTRHighlightLabel_Tests.debug.xcconfig */,
 				594B051DF764061CE52C8FDA /* Pods-TTRHighlightLabel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Y6L854MGB9;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,6 +479,7 @@
 			baseConfigurationReference = E232FE085034514052438188 /* Pods-TTRHighlightLabel_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6L854MGB9;
 				INFOPLIST_FILE = TTRHighlightLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +495,7 @@
 			baseConfigurationReference = 150E5EF257DCA915819E5DAB /* Pods-TTRHighlightLabel_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6L854MGB9;
 				INFOPLIST_FILE = TTRHighlightLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

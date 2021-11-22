@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		00C3990CBCCFF63F155C840BE440C2F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1D8A06E1D5BF2F475FF088C50E839FFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2485D6D6274AC59A00AD6BB0 /* TTRHighlightLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2485D6D5274AC59A00AD6BB0 /* TTRHighlightLabel.swift */; };
+		24850EE4274C32CC0047828B /* TTRHighlightLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2485D6D5274AC59A00AD6BB0 /* TTRHighlightLabel.swift */; };
 		5A7FC07FDDC8131124A3CF4C038D1336 /* Pods-TTRHighlightLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B23245F220583B0AA7078D5B7C78F14C /* Pods-TTRHighlightLabel_Tests-dummy.m */; };
 		A9FF80DA72A85A92C8E5D0C2DC432EED /* TTRHighlightLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAA3B769C928503B97022B26087B2FE /* TTRHighlightLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA2ABDF3C270855B2AA49B8AF9E33729 /* Pods-TTRHighlightLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64EDC8A12B7CC9085D6FCB3543D771BB /* Pods-TTRHighlightLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -380,7 +380,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2485D6D6274AC59A00AD6BB0 /* TTRHighlightLabel.swift in Sources */,
 				C9BB0D540A34FD484864FDCFA28B580E /* Pods-TTRHighlightLabel_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24850EE4274C32CC0047828B /* TTRHighlightLabel.swift in Sources */,
 				CD2AB2DCD190561D93E8F752A37CC154 /* TTRHighlightLabel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,8 +434,9 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TTRHighlightLabel/TTRHighlightLabel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TTRHighlightLabel/TTRHighlightLabel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.2;
 				MODULEMAP_FILE = "Target Support Files/TTRHighlightLabel/TTRHighlightLabel.modulemap";
 				PRODUCT_MODULE_NAME = TTRHighlightLabel;
 				PRODUCT_NAME = TTRHighlightLabel;
@@ -464,8 +465,9 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TTRHighlightLabel/TTRHighlightLabel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TTRHighlightLabel/TTRHighlightLabel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.2;
 				MODULEMAP_FILE = "Target Support Files/TTRHighlightLabel/TTRHighlightLabel.modulemap";
 				PRODUCT_MODULE_NAME = TTRHighlightLabel;
 				PRODUCT_NAME = TTRHighlightLabel;
@@ -533,7 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -561,7 +563,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TTRHighlightLabel_Tests/Pods-TTRHighlightLabel_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TTRHighlightLabel_Tests/Pods-TTRHighlightLabel_Tests.modulemap";
@@ -594,7 +596,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TTRHighlightLabel_Example/Pods-TTRHighlightLabel_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TTRHighlightLabel_Example/Pods-TTRHighlightLabel_Example.modulemap";
@@ -628,7 +630,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TTRHighlightLabel_Tests/Pods-TTRHighlightLabel_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TTRHighlightLabel_Tests/Pods-TTRHighlightLabel_Tests.modulemap";
@@ -662,7 +664,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TTRHighlightLabel_Example/Pods-TTRHighlightLabel_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TTRHighlightLabel_Example/Pods-TTRHighlightLabel_Example.modulemap";
@@ -731,7 +733,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

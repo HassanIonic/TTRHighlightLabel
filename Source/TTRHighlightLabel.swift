@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TTRHighlightLabel: UILabel {
+public class TTRHighlightLabel: UILabel {
 
     fileprivate struct AssociatedObjectKeys {
         static var highlightedTapGestureRecognizer = "MediaViewerAssociatedObjectKey_mediaViewer"
@@ -76,7 +76,7 @@ public struct AttributeObject {
     public let color: UIColor?
     public let font: UIFont?
     
-    init(text: String?, color: UIColor?, font: UIFont? = nil){
+    public init(text: String?, color: UIColor?, font: UIFont? = nil){
         self.text = text
         self.color = color
         self.font = font
